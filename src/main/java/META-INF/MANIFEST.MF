@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
-Class-Path: fastjson-1.2.4.jar poi-3.10.1.jar xmlbeans-2.6.0.jar poi-o
- oxml-schemas-3.10.1.jar ant-launcher-1.8.2.jar dom4j-1.6.1.jar poi-ex
- celant-3.10.1.jar poi-ooxml-3.10.1.jar xml-apis-1.0.b2.jar stax-api-1
- .0.1.jar ant-1.8.2.jar commons-codec-1.5.jar
+Class-Path: xmlbeans-2.6.0.jar ant-launcher-1.8.2.jar fastjson-1.2.4.j
+ ar commons-codec-1.5.jar poi-3.10.1.jar poi-ooxml-3.10.1.jar dom4j-1.
+ 6.1.jar xml-apis-1.0.b2.jar stax-api-1.0.1.jar poi-ooxml-schemas-3.10
+ .1.jar poi-excelant-3.10.1.jar ant-1.8.2.jar
 Main-Class: 
 

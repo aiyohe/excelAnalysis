@@ -56,13 +56,13 @@ public class Zywz006Day {
                 }
                 //处理数据
                 if (x != null) {
-                    Integer code;
+                    String code;
                     try {
-                        code = Integer.valueOf((String) json.get(y + "-" + x));
+                        code = (String) json.get(y + "-" + x);
                     } catch (Exception e) {
-                        code = 0;
+                        code = null;
                     }
-                    if (code != 0) {
+                    if (code != null&&!"".equals(code)) {
                         jsa.put(code + "-B3", json.get(y + "-" + (Integer.valueOf(x) + 1)));
                     }
                 }

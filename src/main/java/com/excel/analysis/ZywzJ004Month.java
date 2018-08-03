@@ -56,14 +56,14 @@ public class ZywzJ004Month {
                 }
                 //处理数据
                 if (x != null) {
-                    Integer code;
+                    String code;
                     try {
-                        code = Integer.valueOf((String) json.get(y + "-" + x));
+                        code =(String) json.get(y + "-" + x);
                     } catch (Exception e) {
                         e.getMessage();
-                        code = 0;
+                        code = null;
                     }
-                    if (code != 0) {
+                    if (code != null&&!"".equals(code)) {
                         int xx = Integer.valueOf(x);
                         jsa.put(code + "-B3", json.get(y + "-" + (xx + 2)));
                         jsa.put(code + "-B4", json.get(y + "-" + (xx + 3)));
